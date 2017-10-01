@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "WordRef",
+  "version": "1.0",
+  "description": "Call www.wordreference.com to get the translation of the word you select in a web page.",
+  "homepage_url": "https://github.com/tbd",
+  "icons": {
+    "48": "img/wr-48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "img/wr-32.png",
+    "default_title": "WordRef",
+    "default_popup": "popup/index.html"
+  }
+}
