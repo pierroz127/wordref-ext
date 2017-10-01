@@ -3,10 +3,8 @@ body,button,input,select,textarea{font-family:sans-serif;color:#222}
 .container{width:480px;padding:18px;}
 .request {margin-bottom: .85rem;font-size: 16px;width:100%;padding: 5px 0;}
 .request select {float:right; height: 100%; border:1px solid #b7b7b7;padding-left: 3px;margin:0;font:inherit;font-size:13px;font-weight:bold;width:164px;outline:0;line-height:1.2;background-color:#d7d7d7;border-radius:2px}
-
 #selectedText {padding: 0 5px 0 5px; background-color: yellow;}
-/* input{display:block;width:100%;padding:.5rem .75rem;font-size:1rem; line-height: 1.25rem;color:#495057;background-color:#fff; border:1px solid rgba(0,0,0,.15);border-radius: .25rem;} */
-h3.headerWord{display:inline-block;font-family:"Times New Roman";font-size:1.5rem;margin:20px 18px 20px 0;}
+#fSelect {position: static; left: 479px; top: 146px; z-index: 1000000; border: 1px solid rgb(183, 183, 183); padding: 7px 8px 6px 10px; margin: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; font-size: 13px; line-height: 1.2; font-family: inherit; width: 178px; outline: 0px; background-color: rgb(215, 215, 215); border-radius: 3px;}
 table.WRD{width:100%;border-collapse:collapse;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;cursor:pointer}
 tr.wrtopsection td{padding-bottom:7px;padding-top:7px;font-size:13px;text-align:center}
 .langHeader{font-size:13px;text-decoration: underline;font-weight:bold;}
